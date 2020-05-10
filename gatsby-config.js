@@ -9,6 +9,7 @@ module.exports = {
     siteHeadline: `Jubin Jayaprakash Blog Blog - Java, Spring and Cloud`,
     siteUrl: `https://jayaprakashjub.in`,
     siteDescription: `Java, Spring and Cloud Development Tutorials`,
+    siteLanguage : `en`,
     author: `@jubinj49`
   },
   plugins: [
