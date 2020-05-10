@@ -4,12 +4,16 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Jubin Jayaprakash Blog`,
+    siteTitleAlt: `Jubin Jayaprakash Blog`,
+    siteHeadline: `Jubin Jayaprakash Blog Blog - Java, Spring and Cloud`,
+    siteUrl: `https://jayaprakashjub.in`,
+    siteDescription: `Java, Spring and Cloud Development Tutorials`,
+    author: `@jubinj49`
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-      // See the theme's README for all available options
       options: {
         navigation: [
           {
@@ -43,9 +47,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Jubin Jayaprakash Blog`,
+        short_name: `Jubin's blog`,
+        description: `Java, Spring and Cloud Development Tutorials`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
