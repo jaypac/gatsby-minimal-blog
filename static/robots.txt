@@ -1,3 +1,2 @@
 User-agent: *
-
-sitemap: https://jayaprakashjub.in/sitemap.xml
+Disallow:

@@ -4,72 +4,84 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Jubin Jayaprakash Blog`,
-    siteTitleAlt: `Jubin Jayaprakash Blog`,
-    siteHeadline: `Jubin Jayaprakash Blog Blog - Java, Spring and Cloud`,
-    siteUrl: `https://jayaprakashjub.in`,
-    siteDescription: `Java, Spring and Cloud Development Tutorials`,
-    siteLanguage : `en`,
-    author: `@jubinj49`
+    title: `Jubin Jayaprakash Blog`,
+    author: {
+      name: `Jubin Jayaprakash`,
+      summary: `who works with Java, Spring, Hibernate and cloud`,
+    },
+    description: `Java, Spring and Cloud Development Tutorials`,
+    siteUrl: `https://jayaprakashjub.in/`,
+    social: {
+      twitter: `jubinj49`,
+    },
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-minimal-blog`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        navigation: [
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
           {
-            title: `Blog`,
-            slug: `/blog`,
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
           },
           {
-            title: `About`,
-            slug: `/about`,
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
           },
-        ],
-        externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/jubinj49`,
-          },
-          {
-            name: `Github`,
-            url: `https://github.com/jaypac/`,
-          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
         ],
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
-    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Jubin Jayaprakash Blog`,
-        short_name: `Jubin's blog`,
-        description: `Java, Spring and Cloud Development Tutorials`,
+        short_name: `Jubin`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#6B46C1`,
-        display: `standalone`,
-        icons: [
-          {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `content/assets/icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
 }

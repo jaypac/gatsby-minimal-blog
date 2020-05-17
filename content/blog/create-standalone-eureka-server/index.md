@@ -1,7 +1,7 @@
 ---
 title: "Create a standalone discovery server using Eureka"
 date: 2020-05-10
-slug: "/create-standalone-eureka-server"
+description: "Create a standalone discovery server using Eureka"
 tags:
   - Tutorial
   - Spring Cloud
@@ -31,20 +31,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-```
-
-```js
-// In your gatsby-config.js
-plugins: [
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        `gatsby-remark-prismjs`,
-      ]
-    }
-  }
-]
 ```
 
 Start your application and navigate to http://localhost:8080 from you browser. You should see the Eureka console.

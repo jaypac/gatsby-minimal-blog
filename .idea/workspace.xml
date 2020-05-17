@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f91b43c1-4c1c-4faf-a97f-52a14955aab4" name="Default Changelist" comment="Added post for creating a new eureka server">
+      <change beforePath="$PROJECT_DIR$/content/posts/create-standalone-eureka-server/index.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/create-standalone-eureka-server/index.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../sdk/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Jubin\dev\sdk\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bhaqBMG5gcrnA1VEppjHC42Mr7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/@lekoarts/gatsby-theme-minimal-blog/src/components/title.tsx&#10;C:/Jubin/dev/blog/gatsby-minimal-blog/node_modules/@lekoarts/gatsby-theme-minimal-blog/src/gatsby-plugin-theme-ui/components.js" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f91b43c1-4c1c-4faf-a97f-52a14955aab4" name="Default Changelist" comment="" />
+      <created>1589086967602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589086967602</updated>
+      <workItem from="1589086969917" duration="16570000" />
+      <workItem from="1589638699682" duration="60000" />
+      <workItem from="1589638793608" duration="18000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1589089921722</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589089921722</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added new hero.mdx files">
+      <created>1589097118405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589097118405</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modified twitter and github links">
+      <created>1589097218355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589097218355</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Uppdate Gatsby config with site language">
+      <created>1589097578492</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589097578492</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added post for creating a new eureka server">
+      <created>1589106061964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589106061964</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Added new hero.mdx files" />
+    <MESSAGE value="Modified twitter and github links" />
+    <MESSAGE value="Uppdate Gatsby config with site language" />
+    <MESSAGE value="Added post for creating a new eureka server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added post for creating a new eureka server" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="444" height="422" key="Git.Branch.Popup" timestamp="1589089961396">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="444" height="422" key="Git.Branch.Popup/0.0.1280.680@0.0.1280.680" timestamp="1589089961396" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589177184180">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589087073863" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1589177184180" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589177184180">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589087073863" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1589177184180" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589177184180">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589087073862" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1589177184180" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589177184180">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589087073863" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1589177184180" />
+    <state x="390" y="43" key="RollbackChangesDialog" timestamp="1589108739212">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="390" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1589108739212" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1589106063343">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589106063343" />
+    <state x="307" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589103098618">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="307" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1589103098618" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589089999789">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1589089999789" />
+    <state x="347" y="73" width="587" height="592" key="find.popup" timestamp="1589111433754">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="73" width="587" height="592" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1589111433754" />
+    <state x="0" y="0" width="1280" height="680" key="new project wizard" timestamp="1589103171587">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="1280" height="680" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1589103171587" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589111568584">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589111568584" />
+  </component>
+</project>
